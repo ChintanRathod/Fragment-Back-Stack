@@ -13,7 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:entries="@array/secondFragmentEntries"
-        android:layout_alignParentTop="true" />
+        android:layout_below="@+id/textView1"
+        android:entries="@array/secondFragmentEntries" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:text="Second Fragment"
+        android:textColor="#0000FF"
+        android:textSize="18sp" />
 
 </RelativeLayout>
